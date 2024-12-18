@@ -1,0 +1,129 @@
+.card{
+    width: 100%;
+    height: 530px;
+    border: 1px solid #e9e9e9;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 2s;
+}
+.card:hover{
+    scale: 1.05;
+    
+}
+.img{
+    position: relative;
+    height: 330px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.info {
+    padding: 15px 7px;
+}
+.data{
+    margin-top: 25px;
+}
+.name{
+    font-size: 1rem;
+}
+.star>i{
+    color: yellow;
+    font-size:0.8rem ;
+}
+.price{
+    font-size: 1.5rem;
+    color: #f3791a;
+}
+.price>b>span{
+    font-size: 0.6rem;
+}
+.ads{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.tag>i{
+    color: #f3791a;
+}
+.video>i{
+    color: #4b90e2;
+}
+.avantaj{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top :10px;
+    left: 5px;
+}
+.avantaj>img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #fff ;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding-top: 4px;
+    padding-left: 1px;
+}
+button:focus{
+    color: red;
+}
+.sponsor{
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 0.9rem;
+    background-color:#d4d8d0;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+.colors{
+    height: 30px;
+    width: 60px;
+    border-radius:15px;
+    background-color: #fff;
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+.colors > .pink{
+    color: #fcb1ae;
+    font-size: 0.9rem;
+    margin-left: -9px;
+}
+.colors > .blue{
+    color:#529cfa ;
+    font-size: 0.9rem;
+    position: sticky;
+    
+}
+.eklenti{
+    font-size: 1rem;
+}
+.eklenti>b>span{
+    color:#f3791a
+}
+.data2{
+    margin-top: 5px;
+}
+.campaign{
+    font-size: 0.8rem;
+}
+.red{
+    color: #bb0100;
+}
